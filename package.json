@@ -4,7 +4,7 @@
   "description": "Projeto da missão de aprendizado do nível iniciante: Hello World com Expressjs - Salvatore Academy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",

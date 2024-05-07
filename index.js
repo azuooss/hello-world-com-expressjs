@@ -6,4 +6,14 @@ app.get('/', function (req, res)
     res.send('Hello World!')
 })
 
-app.listen(3000)
+// Endpoint /oi -> Olá, mundo!
+
+app.get('/oi', function (req, res)
+{
+    res.send ("Olá, mundo!")
+})
+
+app.listen(3000, function ()
+{
+    console.log("aplicação rodando em http//localhost:3000")
+})
